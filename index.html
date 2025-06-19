@@ -882,36 +882,6 @@
         </div>
     </section>
 
-    <section class="charts">
-        <h2 class="section-title center">Nuestro Rendimiento</h2>
-        <p class="section-subtitle">Visualizamos datos para tomar mejores decisiones y mostrar nuestro progreso de manera transparente.</p>
-        <div class="chart-container">
-            <div class="chart-card">
-                <h3 class="chart-title">Crecimiento Anual</h3>
-                <div class="chart-wrapper">
-                    <canvas id="growthChart"></canvas>
-                </div>
-            </div>
-            <div class="chart-card">
-                <h3 class="chart-title">Distribución de Servicios</h3>
-                <div class="chart-wrapper">
-                    <canvas id="servicesChart"></canvas>
-                </div>
-            </div>
-            <div class="chart-card">
-                <h3 class="chart-title">Satisfacción del Cliente</h3>
-                <div class="chart-wrapper">
-                    <canvas id="satisfactionChart"></canvas>
-                </div>
-            </div>
-            <div class="chart-card">
-                <h3 class="chart-title">Tasa de Conversión</h3>
-                <div class="chart-wrapper">
-                    <canvas id="conversionChart"></canvas>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section class="testimonials" id="Carreras">
         <h2 class="section-title center">Lo Que Dicen Nuestros Clientes</h2>
@@ -986,10 +956,10 @@
         const growthChart = new Chart(growthCtx, {
             type: 'bar',
             data: {
-                labels: ['2018', '2019', '2020', '2021', '2022', '2023'],
+                labels: ['2023', '2024','2025'],
                 datasets: [{
                     label: 'Ingresos (millones)',
-                    data: [1.2, 2.5, 3.8, 5.2, 7.4, 9.8],
+                    data: [5.2, 7.4, 9.8],
                     backgroundColor: '#ff2d75',
                     borderColor: '#ff2d75',
                     borderWidth: 1
